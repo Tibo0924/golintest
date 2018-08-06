@@ -70,7 +70,6 @@ const Form = (props) => (
       <textarea 
         onChange={props.onFormChange} 
         name="textarea"
-        cols="40" rows="25" 
         placeholder="Hello there, I'd like to donate you some money">
       </textarea>
       <footer>
