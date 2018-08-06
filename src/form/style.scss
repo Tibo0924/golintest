@@ -1,0 +1,78 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  color: #808080d9;
+  font-size: 8pt;
+  a:last-of-type {
+    font-size: 12px;
+    align-self: flex-start;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    font-style: oblique;
+    color: rgb(51, 173, 216);
+    text-decoration: none;
+  }
+  label {
+    text-align: left;
+    margin-right: auto;
+    padding-bottom: 0.5rem;
+    padding-left: 0.2rem;
+    line-height: 15px; 
+  }
+  input {
+    width: 97%;
+    height: 95px;
+    border-radius: 1px;
+    margin: 0.5rem 0;
+    border: 1px solid #8080804d;
+    border-radius: 4px;
+    font-size: 11pt;
+  }
+  ::placeholder {
+    font-size: 10pt;
+    padding-left: 10px;
+    color: #808080e5;
+    font-weight: 500;
+  }
+  textarea {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: 1px solid #8080804d;
+    font-size: 10pt;
+  }
+  input:last-child{
+    //lastinput field 
+    width: 120px;
+    height: 2.4rem;
+    margin-bottom: 1rem;
+    span{
+      color: rgb(141, 141, 141)
+    }
+  }
+  input:last-child::placeholder  { 
+    color: black;
+    font-size: 12pt;
+  } 
+} // end of Form
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 99%;
+  margin-bottom: 1.3rem;
+}
+button {
+  background-color: rgb(43, 194, 61);
+  border-radius: 5px;
+  width: 120px;
+  height: 3rem;
+  margin-top: 6px;
+  font-size: 12pt;
+  font-weight: 400;
+  color: whitesmoke;
+}
