@@ -1,6 +1,6 @@
 const state = {
-  targetValue: 999,
-  currentValue: 500,
+  targetValue: 1000,
+  currentValue: 833,
   endDate: '12/12/2018',
   supporters: 42
 }

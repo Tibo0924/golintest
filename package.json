@@ -17,6 +17,10 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all -p build-css build-js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "now-start": "serve --single ./build"
+  },
+  "devDependencies": {
+    "serve": "^9.4.0"
   }
 }
