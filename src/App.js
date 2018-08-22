@@ -6,6 +6,7 @@ import ProgressBar from './progress-bar'
 import Header from './Header'
 import ShowValue from './ShowValue'
 
+
 class App extends Component {
   constructor(props){
     super(props)
